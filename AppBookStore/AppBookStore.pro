@@ -6,6 +6,7 @@ QT += quick
 
 SOURCES += \
         AppEngine/AppEngine.cpp \
+        Book/Book.cpp \
         Model/ModelBook.cpp \
         main.cpp
 
@@ -24,4 +25,5 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 HEADERS += \
     AppEngine/AppEngine.h \
+    Book/Book.h \
     Model/ModelBook.h
