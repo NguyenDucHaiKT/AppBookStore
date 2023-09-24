@@ -7,7 +7,10 @@ QT += quick
 SOURCES += \
         AppEngine/AppEngine.cpp \
         Book/Book.cpp \
+        Customer.cpp \
+        Model/BillBook.cpp \
         Model/ModelBook.cpp \
+        StoreBook/StoreBookBuy.cpp \
         main.cpp
 
 RESOURCES += qml.qrc
@@ -26,4 +29,7 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 HEADERS += \
     AppEngine/AppEngine.h \
     Book/Book.h \
-    Model/ModelBook.h
+    Customer.h \
+    Model/BillBook.h \
+    Model/ModelBook.h \
+    StoreBook/StoreBookBuy.h

@@ -8,6 +8,7 @@ class ModelBook
     Q_OBJECT
 public:
     ModelBook();
+
 };
 
 #endif // MODELBOOK_H
